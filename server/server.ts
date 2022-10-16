@@ -13,7 +13,7 @@ const { rustnodegrpc } = grpc.loadPackageDefinition(packageDefinition)
 async function connect(){
 
     // Create client
-    const client = new rustnodegrpc.Stats('127.0.0.1:9800', grpc.credentials.createInsecure())
+    const client = new rustnodegrpc.Commands('127.0.0.1:9800', grpc.credentials.createInsecure())
 
     // Get mean by talking to server, using a callback
     client.mean({ a: 4, b: 5 }, (err, response) => {
