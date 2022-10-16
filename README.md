@@ -6,6 +6,17 @@ An AI written in NodeJS (+brain.js) that remote-controls execution of an emulato
 For the first iteration, the emulator will be 'RustBoyAdvance' using the rustnodegrpc package to receive JSONRPC commands. [-> Emulator source code](https://github.com/brainmatters/rustboyadvance-ng)
 
 
+## Getting Started 
+
+1. Install dependencies with 
+` yarn install `
+
+2. Boot the rust gba emulator [-> Emulator source code](https://github.com/brainmatters/rustboyadvance-ng)
+
+3. Run the server with 
+` yarn server `
+
+
 
 
 ## JSONRPC endpoints
