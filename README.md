@@ -1,15 +1,16 @@
-## Brainmatters AI 
+# Brainmatters AI 
 
 
 An AI written in NodeJS (+brain.js) that remote-controls execution of an emulator using 'nodegrpc'.
 
-For the first iteration, the emulator will be 'RustBoyAdvance' using the rustnodegrpc package to receive JSONRPC commands.  
+For the first iteration, the emulator will be 'RustBoyAdvance' using the rustnodegrpc package to receive JSONRPC commands. [-> Emulator source code](https://github.com/brainmatters/rustboyadvance-ng)
 
 
 
 
-### JSONRPC endpoints
-####  The endpoints on the Rust-based GBA emulator  
+## JSONRPC endpoints
+###  The endpoints on the Rust-based GBA emulator  
+
 
 sendControllerEvent(evt): sends a controller event like A, B, up, down, right, left 
 
